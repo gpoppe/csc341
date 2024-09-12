@@ -15,6 +15,10 @@ int main(int argc, char *argv[])
 //local variables which hold values
 	int i;
 	int z = 0;
+	
+	printf("unitialized x address is %p \n",&x);
+
+	printf("itialized y address is %p \n",&y);
 
 //array of size 5 with all elements initialized to 0
 	int array1[5] = {0,1,2,3,4};
